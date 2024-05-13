@@ -1,0 +1,12 @@
+@media print {
+	@page {
+		size: A4;
+		margin: 20mm;
+	}
+}
+
+body {
+	width: 210mm;
+	height: auto;
+	overflow: visible;
+}
