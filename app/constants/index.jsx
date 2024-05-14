@@ -4,7 +4,27 @@ export const personalInfo = {
 	subheading: "Frontend Developer",
 	email: "rasmus.brem@gmail.com",
 	tel: "0762693031",
+	adress: "Grevegårdsvägen 134, Västa Frölunda",
 };
+
+export const competencey = [
+	{
+		skill: "Webdev",
+		level: 8,
+	},
+	{
+		skill: "SEO",
+		level: 9,
+	},
+	{
+		skill: "Frontend",
+		level: 10,
+	},
+	{
+		skill: "Backend",
+		level: 7,
+	},
+];
 
 export const skills = [
 	{
@@ -40,6 +60,11 @@ export const skills = [
 	{
 		id: 7,
 		name: "Blender",
+		img: "null",
+	},
+	{
+		id: 8,
+		name: "SEO",
 		img: "null",
 	},
 ];
