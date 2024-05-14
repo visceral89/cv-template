@@ -32,4 +32,35 @@ export const skills = [
 		name: "Supabase",
 		img: "null",
 	},
+	{
+		id: 6,
+		name: "NodeJS",
+		img: "null",
+	},
+	{
+		id: 7,
+		name: "Blender",
+		img: "null",
+	},
+];
+
+export const profil = {
+	title: "Profil",
+	text: "Jag är en Frontend Utvecklare med kärlek för NextJS.",
+};
+
+export const experience = {
+	title: "Jobb 1",
+	time: "Januari, 2024",
+	place: "Göteborg",
+	desc: ["Lorem ipsum", "Lorem ipsum", "Lorem ipsum dolor sit amet"],
+};
+
+export const education = [
+	{
+		name: "Futuregames",
+		time: "2023-2024",
+		place: "Stockholm",
+		desc: "Lorem ipsum dolor sit amet",
+	},
 ];
