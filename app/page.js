@@ -13,7 +13,17 @@ export default function Home() {
 			<div className={styles.contentContainer}>
 				<div className={styles.sideBarLeft}>
 					<h1>Detaljer</h1>
-					<h2>Adress: {personalInfo.adress}</h2>
+					<h2>Adress</h2>
+					{personalInfo.adress}
+					<h2>Telefon</h2>
+					{personalInfo.tel}
+					<h2>Email</h2>
+					{personalInfo.email}
+					<h2>Github</h2>
+					{personalInfo.github}
+					<div className={styles.skills}>
+						<h1>Kompetens</h1>
+					</div>
 				</div>
 				<div className={styles.sideBarRight}></div>
 			</div>

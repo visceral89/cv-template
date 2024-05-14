@@ -5,6 +5,7 @@ export const personalInfo = {
 	email: "rasmus.brem@gmail.com",
 	tel: "0762693031",
 	adress: "Grevegårdsvägen 134, Västa Frölunda",
+	github: "https://github.com/Visceral89",
 };
 
 export const competencey = [
