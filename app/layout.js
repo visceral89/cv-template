@@ -1,7 +1,7 @@
-import { SchibstedGrotesk } from "next/font/google";
-import "./globals.css";
+import { Schibsted_Grotesk } from "next/font/google";
+import "./globals.scss";
 
-const schib = SchibstedGrotesk({ subsets: ["latin"] });
+const schib = Schibsted_Grotesk({ subsets: ["latin"] });
 
 export const metadata = {
 	title: "Create Next App",

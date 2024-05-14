@@ -1,6 +1,6 @@
 export const personalInfo = {
 	firstname: "Rasmus",
-	lastname: "Bremholm",
+	lastname: " Bremholm",
 	subheading: "Frontend Developer",
 	email: "rasmus.brem@gmail.com",
 	tel: "0762693031",
@@ -23,6 +23,10 @@ export const competencey = [
 	{
 		skill: "Backend",
 		level: 7,
+	},
+	{
+		skill: "GIT",
+		level: 8,
 	},
 ];
 
