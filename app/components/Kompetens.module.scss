@@ -1,0 +1,13 @@
+.skillContainer {
+	width: 80%;
+}
+
+.skillName {
+}
+
+.skillBar {
+	height: 12px;
+	background-color: black;
+	max-width: 100%;
+	transition: width 0.3s ease-in-out;
+}

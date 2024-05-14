@@ -1,5 +1,6 @@
 import styles from "./page.module.scss";
 import { personalInfo } from "./constants";
+import Kompetens from "./components/kompetens";
 
 export default function Home() {
 	return (
@@ -23,6 +24,7 @@ export default function Home() {
 					{personalInfo.github}
 					<div className={styles.skills}>
 						<h1>Kompetens</h1>
+						<Kompetens />
 					</div>
 				</div>
 				<div className={styles.sideBarRight}></div>

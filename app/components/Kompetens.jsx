@@ -5,11 +5,11 @@ export default function Kompetens() {
 	return (
 		<>
 			{competencey.map((item) => (
-				<div key={item.skill}>
+				<div className={styles.skillContainer} key={item.skill}>
 					<div className={styles.skillName}>{item.skill}</div>
 					<div
 						className={styles.skillBar}
-						style={{ width: `${item.level * 10}` }}
+						style={{ width: `${item.level * 10}%` }}
 					/>
 				</div>
 			))}
