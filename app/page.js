@@ -1,5 +1,5 @@
 import styles from "./page.module.scss";
-import { personalInfo } from "./constants";
+import { personalInfo, profil } from "./constants";
 import Kompetens from "./components/kompetens";
 
 export default function Home() {
@@ -27,7 +27,15 @@ export default function Home() {
 						<Kompetens />
 					</div>
 				</div>
-				<div className={styles.sideBarRight}></div>
+				<div className={styles.sideBarRight}>
+					<div className={styles.profile}>
+						<h1>{profil.title}</h1>
+						{profil.text}
+					</div>
+					<div className={styles.experience}>
+						<h1>Arbetslivserfarenhet</h1>
+					</div>
+				</div>
 			</div>
 		</main>
 	);

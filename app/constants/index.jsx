@@ -10,24 +10,24 @@ export const personalInfo = {
 
 export const competencey = [
 	{
-		skill: "Webdev",
-		level: 8,
-	},
-	{
-		skill: "SEO",
-		level: 9,
-	},
-	{
 		skill: "Frontend",
 		level: 10,
 	},
 	{
-		skill: "Backend",
-		level: 7,
+		skill: "SEO",
+		level: 9.5,
 	},
 	{
 		skill: "GIT",
+		level: 8.5,
+	},
+	{
+		skill: "Webdev",
 		level: 8,
+	},
+	{
+		skill: "Backend",
+		level: 6.5,
 	},
 ];
 
@@ -76,11 +76,15 @@ export const skills = [
 
 export const profil = {
 	title: "Profil",
-	text: "Jag är en Frontend Utvecklare med kärlek för NextJS.",
+	text: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi
+	dolorem aspernatur aliquam eaque, non ut veniam corrupti dignissimos
+	possimus maiores nostrum, soluta, quae dicta natus nihil maxime.
+	Pariatur, eius possimus!`,
 };
 
 export const experience = {
 	title: "Jobb 1",
+	workplace: "Tetiko AB",
 	time: "Januari, 2024",
 	place: "Göteborg",
 	desc: ["Lorem ipsum", "Lorem ipsum", "Lorem ipsum dolor sit amet"],
