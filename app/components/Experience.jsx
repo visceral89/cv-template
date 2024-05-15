@@ -11,6 +11,11 @@ export default function Experience() {
 							{item.title},{item.workplace}
 						</h3>
 						<span>{item.time}</span>
+						<ul>
+							{item.desc.map((descItem, descIndex) => (
+								<li key={descIndex}>{descItem}</li>
+							))}
+						</ul>
 					</div>
 				</div>
 			))}
