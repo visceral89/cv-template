@@ -7,7 +7,10 @@ export default function Experience() {
 			{experience.map((item) => (
 				<div className={styles.skillContainer} key={item.title}>
 					<div className={styles.titleContainer}>
-						{item.title},{item.workplace}
+						<h3>
+							{item.title},{item.workplace}
+						</h3>
+						<span>{item.time}</span>
 					</div>
 				</div>
 			))}

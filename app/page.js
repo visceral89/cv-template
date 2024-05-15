@@ -1,6 +1,7 @@
 import styles from "./page.module.scss";
 import { personalInfo, profil } from "./constants";
 import Kompetens from "./components/kompetens";
+import Experience from "./components/Experience";
 
 export default function Home() {
 	return (
@@ -34,6 +35,7 @@ export default function Home() {
 					</div>
 					<div className={styles.experience}>
 						<h1>Arbetslivserfarenhet</h1>
+						<Experience />
 					</div>
 				</div>
 			</div>

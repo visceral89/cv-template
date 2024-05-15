@@ -82,13 +82,22 @@ export const profil = {
 	Pariatur, eius possimus!`,
 };
 
-export const experience = {
-	title: "Jobb 1",
-	workplace: "Tetiko AB",
-	time: "Januari, 2024",
-	place: "Göteborg",
-	desc: ["Lorem ipsum", "Lorem ipsum", "Lorem ipsum dolor sit amet"],
-};
+export const experience = [
+	{
+		title: "Utbildningsansvarig",
+		workplace: "Tetiko AB",
+		time: "Januari, 2024",
+		place: "Göteborg",
+		desc: ["Lorem ipsum", "Lorem ipsum", "Lorem ipsum dolor sit amet"],
+	},
+	{
+		title: "Jobb 2",
+		workplace: "Nettotobak",
+		time: "Januari, 2017",
+		place: "Göteborg",
+		desc: ["Lorem ipsum", "Lorem ipsum", "Lorem ipsum dolor sit amet"],
+	},
+];
 
 export const education = [
 	{
