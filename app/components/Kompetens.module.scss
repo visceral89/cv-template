@@ -1,6 +1,9 @@
 .skillContainer {
 	width: 80%;
 	padding-bottom: 8px;
+	li {
+		list-style: square;
+	}
 }
 
 .skillName {
@@ -12,4 +15,10 @@
 	background-color: black;
 	max-width: 100%;
 	transition: width 0.3s ease-in-out;
+}
+
+.titleContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }

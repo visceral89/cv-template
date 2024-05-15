@@ -8,15 +8,16 @@ export default function Experience() {
 				<div className={styles.skillContainer} key={item.title}>
 					<div className={styles.titleContainer}>
 						<h3>
-							{item.title},{item.workplace}
+							{item.title}, {item.workplace}
 						</h3>
-						<span>{item.time}</span>
-						<ul>
-							{item.desc.map((descItem, descIndex) => (
-								<li key={descIndex}>{descItem}</li>
-							))}
-						</ul>
+						{item.place}
 					</div>
+					<span>{item.time}</span>
+					<ul>
+						{item.desc.map((descItem, descIndex) => (
+							<li key={descIndex}>{descItem}</li>
+						))}
+					</ul>
 				</div>
 			))}
 		</>
